@@ -1,0 +1,113 @@
+body { line-height: 1.6; }
+.navbar-brand { letter-spacing: 0.2px; }
+.card { border-radius: 14px; }
+/* Résumé page styling */
+.resume-hero {
+  background: linear-gradient(180deg, #f8fafc, #ffffff);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.resume-section {
+  margin-bottom: 18px;
+}
+
+.resume-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  margin-bottom: 10px;
+}
+
+.resume-item {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.resume-item + .resume-item {
+  margin-top: 12px;
+}
+
+.resume-item-title {
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.resume-meta {
+  color: #6b7280;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.resume-card {
+  background: #0b1220;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+}
+
+.resume-card-title {
+  font-size: 0.8rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.resume-card-body {
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.resume-subtitle {
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #f8fafc;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Optional headshot size cap if you enable it on resume page */
+.headshot {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Improved readability / line spacing */
+body {
+  line-height: 1.75;
+}
+
+/* Resume-specific spacing */
+.resume-item ul li {
+  margin-bottom: 8px;
+}
+
+.resume-item p {
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.resume-item {
+  line-height: 1.75;
+}
