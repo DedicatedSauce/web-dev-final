@@ -111,3 +111,9 @@ body {
 .resume-item {
   line-height: 1.75;
 }
+.headshot {
+  max-width: 240px;
+  width: 100%;
+  height: auto;
+}
+
